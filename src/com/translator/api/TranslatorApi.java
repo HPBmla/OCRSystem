@@ -10,7 +10,7 @@ import com.gtranslate.Translator;
 
 public class TranslatorApi {
 	
-	public String gettranslation()
+/*	public String gettranslation()
 	{
 	
 	
@@ -21,7 +21,7 @@ public class TranslatorApi {
 	//String text = "http://translate.google.com/translate_tts?ie=UTF-8&q=Hello%20World&tl=en-us;";
 	return  text;
 	}
-	
+	*/
 	
 	
 

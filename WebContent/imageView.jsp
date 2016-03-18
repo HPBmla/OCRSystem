@@ -9,12 +9,12 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-    <link href="/LinguistProj/css/bootstrap.css" rel="stylesheet">
+    <link href="/OCRSystem/css/bootstrap.css" rel="stylesheet">
 
-    <link href="/LinguistProj/css/style.css" rel="stylesheet">
-    <link href="/LinguistProj/css/otherStyles.css" rel="stylesheet">
-    <script src="/LinguistProj/js/bootstrap.min.js"></script>
-    <script src="/LinguistProj/js/jquery.min.js"></script>
+    <link href="/OCRSystem/css/style.css" rel="stylesheet">
+    <link href="/OCRSystem/css/otherStyles.css" rel="stylesheet">
+    <script src="/OCRSystem/js/bootstrap.min.js"></script>
+    <script src="/OCRSystem/js/jquery.min.js"></script>
 
 
     <%@include file="navigationBar.jsp" %>

@@ -5,12 +5,12 @@
 --%>
 
 
-<link href="/LinguistProj/css/bootstrap.css" rel="stylesheet">
-<link href="/LinguistProj/css/bootstrap.min.css" rel="stylesheet">
-<link href="/LinguistProj/css/otherStyle.css" rel="stylesheet">
+<link href="/OCRSystem/css/bootstrap.css" rel="stylesheet">
+<link href="/OCRSystem/css/bootstrap.min.css" rel="stylesheet">
+<link href="/OCRSystem/css/otherStyle.css" rel="stylesheet">
 
-<script src="/LinguistProj/js/bootstrap.min.js"></script>
-<script src="/LinguistProj/js/jquery.min.js"></script>
+<script src="/OCRSystem/js/bootstrap.min.js"></script>
+<script src="/OCRSystem/js/jquery.min.js"></script>
 
 
 

@@ -5,14 +5,14 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<link href="/OCRSystem/css/bootstrap.css" rel="stylesheet">
-<link href="/OCRSystem/css/bootstrap.min.css" rel="stylesheet">
-<link href="/OCRSystem/css/style.css" rel="stylesheet">
-<link href="/OCRSystem/css/otherStyles.css" rel="stylesheet">
-<script src="/OCRSystem/js/bootstrap.min.js"></script>
-<script src="/OCRSystem/js/jquery.min.js"></script>
-<script src="/OCRSystem/js/bootstrap-datepicker.js"></script>
-<script src="/OCRSystem/js/uploadimg.js"></script>
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/otherStyles.css" rel="stylesheet">
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap-datepicker.js"></script>
+<script src="js/uploadimg.js"></script>
 
 <%@include file="navigationBar.jsp" %>
 <section class="bg-light-gray">

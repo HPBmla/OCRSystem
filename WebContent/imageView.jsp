@@ -11,10 +11,10 @@
 <html>
     <link href="/OCRSystem/css/bootstrap.css" rel="stylesheet">
 
-    <link href="/OCRSystem/css/style.css" rel="stylesheet">
-    <link href="/OCRSystem/css/otherStyles.css" rel="stylesheet">
-    <script src="/OCRSystem/js/bootstrap.min.js"></script>
-    <script src="/OCRSystem/js/jquery.min.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/otherStyles.css" rel="stylesheet">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
 
 
     <%@include file="navigationBar.jsp" %>
@@ -41,7 +41,7 @@
             %>
 
             <div class="row">
-                <div  id = "display" class="col-lg-8 center-block "><img src="/uploadedImage/<%=fname%>" width="600" height="400"/>
+                <div  id = "display" class="col-lg-8 center-block "><img src="uploadedImage/<%=fname%>" width="600" height="400"/>
 
 
                     <!--    <div id ="inner-disply" class=" col-lg-8 center-block " ><img src= "pink.jpg" height ="300" width="400"/>

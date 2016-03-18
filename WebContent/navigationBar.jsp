@@ -44,12 +44,12 @@
         </div>
     </nav>
 
-    <link href="/OCRSystem/css/bootstrap.css" rel="stylesheet">
-    <link href="/OCRSystem/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/OCRSystem/css/style.css" rel="stylesheet">
-    <link href="/OCRSystem/css/otherStyles.css" rel="stylesheet">
-    <script src="/OCRSystem/js/bootstrap.min.js"></script>
-    <script src="/OCRSystem/js/jquery.min.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/otherStyles.css" rel="stylesheet">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
 
 
 

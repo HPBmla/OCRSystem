@@ -1,0 +1,265 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Feb 1, 2016, 1:32:36 AM
+    Author     : Bimla Madhavee
+*/
+
+.wrapper{
+    /*
+    min-height: 100%;
+    min-width: 100%;
+    */
+}
+
+/* Image Upload Icons */
+.input-group-btn:last-child > .form-control {
+    margin-left: -1px;
+    width: auto;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100%;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+#imageView
+{
+    background-color: white;
+    height: 80px;
+    width: 100%;
+    alignment-adjust: central;
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+#display
+{
+    background-color: white;
+    max-height: 100%;
+    height: 500px;
+    width: 100%;
+    padding-right: 20%;
+    padding-left: 20%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    margin-bottom: 20px;
+
+}
+#inner-disply
+{
+    background-color:#838B83;
+    height: 400px;
+    width:100%;
+    max-height: 100%;
+
+
+}
+.btn-image{
+    background-color: #1C86EE;
+    color: #fff;
+    width: 100px;
+}
+
+.btn-image:hover{
+    background-color: #63B8FF	;
+}
+img .img-file-thumb{
+    height: 140px;
+    width: 140px;
+    z-index: -1;
+
+}
+
+.form-control { margin-bottom: 20px; }
+
+
+
+legend .glyphicon { margin-left: 10px; margin-right: 10px; font-size: 90% ;}
+#head{
+    margin-bottom: 100px;
+}
+#imageDisplay
+{
+    height:500px;
+    width: 300px;
+}
+.team-member h1{
+    font-size: 7em;
+    text-align: right;
+    margin-right: 10%;
+    margin-top: -0.8em;
+}
+
+
+
+.nav{
+    margin-bottom: 0;
+}
+
+
+.box {
+    overflow:auto;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    text-align: right;
+    display: block;
+    padding: 4px;
+}
+
+
+
+
+.info > p {
+    color: #717171;
+    font-size: 16px;
+    padding-top: 10px;
+    text-align: justify;
+}
+.info > input {
+    background-color: #03a9f4;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    color: #fff;
+    transition: all 0.5s ease 0s;
+}
+.info > input:hover {
+    background-color: #0288d1;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.12);
+    color: #fff;
+    transition: all 0.5s ease 0s;
+}
+
+
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img{
+    width: 100%;
+    height: auto;
+}
+
+
+@media screen and (min-width: 992px) {
+
+    .container {
+        max-width: 930px;
+    }
+
+}
+
+#about{
+    //overflow: hidden;
+    // background-color: #5CACEE;
+}
+
+#btn_padding{
+    margin: 5px;
+}
+
+#servicePortion
+{
+    background-color: white;
+    max-height: 100%;
+    height: 100%;
+    width: 100%;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    margin-bottom: 5%;
+}
+#uploadSection
+{
+    background-color: white;
+    height: 45%;
+    width: 100%;
+    padding-right: 20%;
+    padding-left: 20%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+
+}
+.textTitle
+{
+    color: black;
+    // padding-left: 25%;
+}
+.communityTitle{
+    color: black;
+    padding-left: 10%;
+}
+#uploadSuggest
+{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    padding-right: 20%;
+    padding-left: 20%;
+
+    padding-top: 5%;
+}
+#suggestHeading
+{
+    margin-bottom: 10%;
+}
+#nav
+{
+    background-color: black;
+}
+#community-click
+{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 5%;
+    margin-top: 0%;
+}
+#heading{
+    margin-bottom: 5%;
+    text-align: center;
+}
+#headingService
+{
+    margin-bottom: 5%;
+}
+#users
+{
+    margin-bottom: 5%;
+    padding-bottom: 30%;
+}
+#block
+{
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+#block2
+{
+    margin-top: 5%;
+}
+#imageDis
+{
+    //margin-right: 2%;
+}
+#communityBlock
+{
+    margin-bottom: 0%;
+}

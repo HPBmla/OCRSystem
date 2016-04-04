@@ -69,7 +69,7 @@ public class ImagePreprocess extends HttpServlet {
             out.println("null");
         } else {
             out.println(text);
-            TranslatorApi googleApi = new TranslatorApi();
+            
           // String extractedText = googleApi.gettranslation();
           // System.out.println(extractedText);
             request.setAttribute("extractedText", text);

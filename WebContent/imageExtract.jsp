@@ -21,7 +21,7 @@
             <div  id = "imageView" class="col-lg-8 center-block ">
 
                 <a href="#download" class="btn btn-image">Download</a>
-                <a href="#translate" class="btn btn-image">Translate</a>
+                <a href="translation.jsp" class="btn btn-image">Translate</a>
                 <a href="#search" class="btn btn-default bg-light-gray">Search Text</a>
 
             </div>
@@ -30,6 +30,8 @@
             <div  id = "display" class="col-lg-8 center-block ">
             <%
             String extracted = (String) request.getAttribute("extractedText");
+            session.setAttribute("text", extracted);
+            
             %>
                 <textarea maxlength="200" class=" form-control " name="msg" rows="20" id="Extract-textarea" ><%=extracted %> </textarea>
 

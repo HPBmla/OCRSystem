@@ -17,7 +17,7 @@ CountryCode x = new CountryCode();
 %>
 <section class="bg-light-gray">
     <div class="container">
-     <form action="TextTranslation" method="post" class="form" role="form" enctype="multipart/form-data">
+     <form action="TextTranslation" method="post" class="form" role="form" >
         <div class="row">
             <div  id = "imageView" class="col-lg-8 center-block ">
                   
@@ -31,16 +31,24 @@ CountryCode x = new CountryCode();
            {%>
            
            
-           <option value="<%= langCode.get(key)%>"><%=(String)key %> </option>
+           <option value="<%=(String)key%>" > <%=langCode.get(key) %> </option>
+           
         	  <% 
             
-             
+        	  System.out.println((String)key);
            }
+           
+           
+           
+           String name =  request.getParameter("country");
+          System.out.println("selected val:"+name);
+           
             %>
-            
-            
+         
+           
       
         </select>
+           <input type="hidden" name="code" value = "<%=name%>"/> 
     </div>
         
               

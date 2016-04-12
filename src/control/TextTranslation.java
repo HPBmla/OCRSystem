@@ -37,16 +37,24 @@ public class TextTranslation extends HttpServlet {
 		
 		
 		PrintWriter out = response.getWriter();
-		String language = "ES";
+	 String language =  request.getParameter("country");
+		//String name = "ES";
+	   
 		HttpSession extractedText = request.getSession();
         String imageName = (String) extractedText.getAttribute("text");
-        System.out.println("this is so stupid");
+        
         System.out.println("This is "+imageName);
+        System.out.println("I selected"+language);
+    
+        //String name = "it";
         TranslatorApi translation = new TranslatorApi();
         
-        String outputText =   translation.getTranslate(imageName, language);
+        String outputText =   translation.getTranslate(imageName,language);
+        
         System.out.println("Second"+outputText);
         request.setAttribute("outputText", outputText);
+     
+     
         RequestDispatcher sndValue = request.getRequestDispatcher("/translation.jsp");
         sndValue.forward(request, response);
           

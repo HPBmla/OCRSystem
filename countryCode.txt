@@ -1,149 +1,149 @@
-af      :    Afrikaans
-ak      :    Akan
-sq      :    Albanian
-am      :    Amharic
-ar       :   Arabic
-hy       :   Armenian
-az      :    Azerbaijani
-eu       :   Basque
-be      :    Belarusian
-bem      :   Bemba
-bn       :   Bengali
-bh       :   Bihari
-xx-bork  :   Bork, bork, bork!
-bs       :   Bosnian
-br       :   Breton
-bg       :   Bulgarian
-km        :  Cambodian
-ca        :  Catalan
-chr       :  Cherokee
-ny         : Chichewa
-zh-CN      : Chinese (Simplified)
-zh-TW     :  Chinese (Traditional)
-co        :  Corsican
-hr        :  Croatian
-cs        :  Czech
-da        :  Danish
-nl        :  Dutch
-xx-elmer  :  Elmer Fudd
-en       :   English
-eo       :   Esperanto
-et        :  Estonian
-ee        :  Ewe
-fo       :   Faroese
-tl       :   Filipino
-fi       :   Finnish
-fr       :   French
-fy        :  Frisian
-gaa      :   Ga
-gl        :  Galician
-ka       :   Georgian
-de        :  German
-el       :   Greek
-gn        :  Guarani
-gu        :  Gujarati
-xx-hacker :  Hacker
-ht        :  Haitian Creole
-ha        :  Hausa
-haw       :  Hawaiian
-iw      :    Hebrew
-hi      :    Hindi
-hu       :   Hungarian
-is       :   Icelandic
-ig      :    Igbo
-id      :    Indonesian
-ia       :   Interlingua
-ga      :    Irish
-it       :   Italian
-ja      :    Japanese
-jw      :    Javanese
-kn      :    Kannada
-kk       :   Kazakh
-rw      :    Kinyarwanda
-rn       :   Kirundi
-xx-klingon : Klingon
-kg       :   Kongo
-ko        :  Korean
-kri      :   Krio (Sierra Leone)
-ku       :   Kurdish
-ckb      :   Kurdish (Soranî)
-ky       :   Kyrgyz
-lo        :  Laothian
-la       :   Latin
-lv       :   Latvian
-ln        :  Lingala
-lt        :  Lithuanian
-loz      :   Lozi
-lg        :  Luganda
-ach      :   Luo
-mk       :   Macedonian
-mg       :   Malagasy
-ms        :  Malay
-ml        :  Malayalam
-mt       :   Maltese
-mi       :   Maori
-mr       :   Marathi
-mfe      :   Mauritian Creole
-mo       :   Moldavian
-mn       :   Mongolian
-sr-ME    :   Montenegrin
-ne       :   Nepali
-pcm      :   Nigerian Pidgin
-nso      :   Northern Sotho
-no       :   Norwegian
-nn       :   Norwegian (Nynorsk)
-oc       :   Occitan
-or        :  Oriya
-om       :   Oromo
-ps       :   Pashto
-fa       :   Persian
-xx-pirate :  Pirate
-pl        :  Polish
-pt-BR   :    Portuguese (Brazil)
-pt-PT    :   Portuguese (Portugal)
-pa      :    Punjabi
-qu       :   Quechua
-ro        :  Romanian
-rm       :   Romansh
-nyn      :   Runyakitara
-ru        :  Russian
-gd       :   Scots Gaelic
-sr       :   Serbian
-sh       :   Serbo-Croatian
-st       :   Sesotho
-tn       :   Setswana
-crs      :   Seychellois Creole
-sn       :   Shona
-sd       :   Sindhi
-si       :   Sinhalese
-sk       :   Slovak
-sl       :   Slovenian
-so       :   Somali
-es       :   Spanish
-es-419   :   Spanish (Latin American)
-su      :    Sundanese
-sw      :    Swahili
-sv      :    Swedish
-tg      :    Tajik
-ta      :    Tamil
-tt      :    Tatar
-te      :    Telugu
-th      :    Thai
-ti      :    Tigrinya
-to      :    Tonga
-lua     :    Tshiluba
-tum      :   Tumbuka
-tr      :    Turkish
-tk      :    Turkmen
-tw      :    Twi
-ug      :    Uighur
-uk      :    Ukrainian
-ur       :   Urdu
-uz      :    Uzbek
-vi      :    Vietnamese
-cy      :    Welsh
-wo       :   Wolof
-xh      :    Xhosa
-yi      :    Yiddish
-yo       :   Yoruba
-zu      :    Zulu
+﻿AF      :    Afrikaans
+AK      :    Akan
+SQ      :    Albanian
+AM     :    Amharic
+AR      :   Arabic
+HY       :   Armenian
+AZ      :    Azerbaijani
+EU       :   Basque
+BE      :    Belarusian
+BEM      :   Bemba
+BN       :   Bengali
+BH       :   Bihari
+XX-BORK  :   Bork, bork, bork!
+BS       :   Bosnian
+BR       :   Breton
+BG       :   Bulgarian
+KM        :  Cambodian
+CA        :  Catalan
+CHR       :  Cherokee
+NY         : Chichewa
+ZH-CN      : Chinese (Simplified)
+ZH-TW     :  Chinese (Traditional)
+CO        :  Corsican
+HR        :  Croatian
+CS        :  Czech
+DA        :  Danish
+NL       :  Dutch
+XX-ELMER  :  Elmer Fudd
+EN       :   English
+EO       :   Esperanto
+ET        :  Estonian
+EE        :  Ewe
+FO       :   Faroese
+TL       :   Filipino
+FI       :   Finnish
+FR       :   French
+FY        :  Frisian
+GAA      :   Ga
+GL        :  Galician
+KA       :   Georgian
+DE        :  German
+EL       :   Greek
+GN        :  Guarani
+GU        :  Gujarati
+XX-HACKER :  Hacker
+HT        :  Haitian Creole
+HA        :  Hausa
+HAW       :  Hawaiian
+IW      :    Hebrew
+HI      :    Hindi
+HU       :   Hungarian
+IS       :   Icelandic
+IG      :    Igbo
+ID      :    Indonesian
+IA       :   Interlingua
+GA      :    Irish
+IT       :   Italian
+JA      :    Japanese
+JW      :    Javanese
+KN      :    Kannada
+KK       :   Kazakh
+RW      :    Kinyarwanda
+RN       :   Kirundi
+XX-KLINGON : Klingon
+KG       :   Kongo
+KO        :  Korean
+KRI      :   Krio (Sierra Leone)
+KU       :   Kurdish
+CKB      :   Kurdish (Soranî)
+KY       :   Kyrgyz
+LO        :  Laothian
+LA       :   Latin
+LV       :   Latvian
+LN        :  Lingala
+LT        :  Lithuanian
+LOZ      :   Lozi
+LG        :  Luganda
+ACH      :   Luo
+MK       :   Macedonian
+MG       :   Malagasy
+MS        :  Malay
+ML        :  Malayalam
+MT       :   Maltese
+MI       :   Maori
+MR       :   Marathi
+MFE      :   Mauritian Creole
+MO       :   Moldavian
+MN       :   Mongolian
+SR-ME    :   Montenegrin
+NE       :   Nepali
+PCM     :   Nigerian Pidgin
+NSO      :   Northern Sotho
+NO       :   Norwegian
+NN       :   Norwegian (Nynorsk)
+OC       :   Occitan
+OR        :  Oriya
+OM       :   Oromo
+PS       :   Pashto
+FA       :   Persian
+XX-PIRATE :  Pirate
+PL        :  Polish
+PT-BR   :    Portuguese (Brazil)
+PT-PT    :   Portuguese (Portugal)
+PA      :    Punjabi
+QU       :   Quechua
+RO        :  Romanian
+RM       :   Romansh
+NYN     :   Runyakitara
+RU        :  Russian
+GD       :   Scots Gaelic
+SR       :   Serbian
+SH       :   Serbo-Croatian
+ST       :   Sesotho
+TN       :   Setswana
+CRS      :   Seychellois Creole
+SN       :   Shona
+SD       :   Sindhi
+SI       :   Sinhalese
+SK       :   Slovak
+SL       :   Slovenian
+SO       :   Somali
+ES       :   Spanish
+ES-419   :   Spanish (Latin American)
+SU      :    Sundanese
+SW      :    Swahili
+SV      :    Swedish
+TG      :    Tajik
+TA      :    Tamil
+TT      :    Tatar
+TE      :    Telugu
+TH      :    Thai
+TI      :    Tigrinya
+TO      :    Tonga
+LUA     :    Tshiluba
+TUM      :   Tumbuka
+TR      :    Turkish
+TK      :    Turkmen
+TW      :    Twi
+UG      :    Uighur
+UK      :    Ukrainian
+UR       :   Urdu
+UZ      :    Uzbek
+VI      :    Vietnamese
+CY      :    Welsh
+WO       :   Wolof
+XH      :    Xhosa
+YI      :    Yiddish
+YO       :   Yoruba
+ZU      :    Zulu

@@ -50,7 +50,7 @@ public class CountryCode {
 	
 	public Map getCountryList()
 	{
-		String fileName = "countryCode.txt";
+		String fileName = "C:\\bimla\\Dev\\java\\OCRSystem\\countryCode.txt";
 		Map<String, String> code = new HashMap<String, String>();
 		String line;
 		BufferedReader fileReader = null;

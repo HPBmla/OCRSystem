@@ -20,22 +20,16 @@ import com.gtranslate.Translator;
 
 public class TranslatorApi {
 	
-/*	public String gettranslation()
-	{
-	
-	
-	Translator translate = Translator.getInstance();
-	
-    String text = translate.translate("I am programmer", Language.ENGLISH, Language.PORTUGUESE); 
-	System.out.println(text);
-	//String text = "http://translate.google.com/translate_tts?ie=UTF-8&q=Hello%20World&tl=en-us;";
-	return  text;
-	}
-	*/
+
+
 	private String apiKey = "AIzaSyCX2O-pteDLJLeMivT47kD9pucEv67QECQ";
 	
 	public String getTranslate(String textToBeTranslated, String translateLang)
 	{
+		
+		translateLang = translateLang.trim();
+		
+		System.out.println("selected language "+translateLang);
 		Translate translte = null;
 		String result = null;
 		try

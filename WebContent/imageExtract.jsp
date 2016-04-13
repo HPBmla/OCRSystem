@@ -23,7 +23,13 @@
                 <a href="#download" class="btn btn-image">Download</a>
                 <a href="translation.jsp" class="btn btn-image">Translate</a>
                 <a href="#search" class="btn btn-default bg-light-gray">Search Text</a>
-
+                <form action="SearchText" method="post" class="form" role="form" > 
+              <div class="col-md-4"> 
+              <input class="form-control" type="text" name="search"  value=""/>
+               </div> 
+              <input type="submit" class= "btn btn-button" name="search" value="Search">
+            
+              </form>
             </div>
         </div>
         <div class="row">

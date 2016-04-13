@@ -42,9 +42,7 @@ import javax.servlet.http.Part;
 @MultipartConfig
 public class UploadServlet extends HttpServlet {
 	
-	public static int userIdentifictnNum = 0;
- 
-	public static Map<String, String>  textSession = null;
+
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -71,9 +69,7 @@ public class UploadServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
     	
-    	HttpSession sessionId = request.getSession();
-    	String id = sessionId.getId();
-    	System.out.println("my sessionId"+id);
+    
     	
       /*  System.out.println("doPost1");
         

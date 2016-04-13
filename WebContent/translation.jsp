@@ -17,33 +17,30 @@ CountryCode x = new CountryCode();
 %>
 <section class="bg-light-gray">
     <div class="container">
-     <form action="TextTranslation" method="post" class="form" role="form" >
+    
         <div class="row">
             <div  id = "imageView" class="col-lg-8 center-block ">
-                  
-         <div class="btn-group"> 
-         <select name="country">
+               <form action="TextTranslation" method="post" class="form" role="form" >    
+                <div class="btn-group"> 
+                   <select name="country">
       
-            <% 
-             
-          Map<String,String> langCode = x.getCountryList();
-           for( Object key :langCode.keySet() )
-           {%>
+                 <% 
+              
+                   Map<String,String> langCode = x.getCountryList();
+                   for( Object key :langCode.keySet() )
+                 {%>
            
            
-           <option value="<%=(String)key%>" > <%=langCode.get(key) %> </option>
+                      <option value="<%=(String)key%>" > <%=langCode.get(key) %> </option>
            
-        	  <% 
+        	           <% 
             
-        	  System.out.println((String)key);
-           }
+        	          System.out.println((String)key);
+                    }
            
-           
-           
-           String name =  request.getParameter("country");
-          System.out.println("selected val:"+name);
-           
-            %>
+                   String name =  request.getParameter("country");
+                 System.out.println("selected val:"+name);
+               %>
          
            
       
@@ -52,15 +49,27 @@ CountryCode x = new CountryCode();
     </div>
         
               
-                <input type="submit" class= "btn btn-image" value="Translate">
+                <input type="submit" class= "btn btn-image" name = "Translate" value="Translate">
+              <div class="col-md-2">
+                  <!--    <input class="form-control" type="text" name="search"  value=""/>-->
+                    <%
+               //    String text = (String)request.getAttribute("search");
+                //    session.setAttribute("search", text);
+                //    System.out.println("bbbb"+text);
               
-                <a href="#search" class="btn btn-default bg-light-gray">Search Text</a>
-
+                    %>
+                </div>
+              
+               
+                </form>
+                
             </div>
         </div>
-          </form>
+         
         <div class="row">
             <div  id = "display" class="col-lg-8 center-block ">
+            
+            
             <%
             String extracted = (String) request.getAttribute("outputText");
             %>
@@ -70,6 +79,25 @@ CountryCode x = new CountryCode();
             
 
         </div>
+        <div class="row">
+            <div  id = "imageView" class="col-lg-8 center-block ">
+               
+              <div class="row">
+              <form action="SearchText" method="post" class="form" role="form" > 
+              <div class="col-md-4"> 
+              <input class="form-control" type="text" name="searches"  value=""/>
+               </div> 
+              <input type="submit" class= "btn btn-button" name ="search" value="Search">
+              
+              </form>
+              </div> 
+        
+              
+              
+                
+            </div>
+        </div>
+         
 
     </div>
 </section>

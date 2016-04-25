@@ -188,7 +188,7 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 header {
-    background-image: url('../img/coverImage.jpg');
+    background-image: url('../img/bgHeader.jpg');
     background-repeat: none;
     background-attachment: scroll;
     background-position: center center;
@@ -348,7 +348,8 @@ body {
 {
     border-color: #1c86ee;
     resize: none;
+    width:100%;
     max-height: 100%;
-    width: 50%;
+   
 
 }

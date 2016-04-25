@@ -10,7 +10,7 @@
         <div class =" row">
             <div class="col-md-4">
 
-                <span class="copyright"> Copyright &copy; Linguist 2015 </span>
+                <span class="copyright"> Copyright &copy; Linguist 2016 </span>
             </div>
             <div class="col-md-4">
                 <ul class="list-inline social-buttons">

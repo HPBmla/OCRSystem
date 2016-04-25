@@ -103,9 +103,9 @@ public class UploadServlet extends HttpServlet {
          String submittdFileNme = image.imageInputstream(filecontent, "jpg");
          request.setAttribute("name", submittdFileNme);
          if (submittdFileNme == null) {
-             out.println("<html><body onload=\"alert('Image uploaded successful')\"></body></html>");
+            System.out.println("<html><body onload=\"alert('Image uploaded is not successful')\"></body></html>");
          } else {
-             out.println("<html><body onload=\"alert('Image not uploaded successful')\"></body></html>");
+             System.out.println("<html><body onload=\"alert('Image uploaded successful')\"></body></html>");
          }
 
          //returning name of the image to another jsp page

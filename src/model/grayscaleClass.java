@@ -42,7 +42,7 @@ public class grayscaleClass implements Preprocessable {
            // loadOpenCV_Lib();
            //String path = "opencv\\build\\java\\x64\\opencv_java300.dll";
     	   System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
-           FileInputStream fileName = new FileInputStream("C:\\bimla\\Dev\\java\\LinguistProj\\WebContent\\uploadedImage\\" + image);
+           FileInputStream fileName = new FileInputStream("C:\\bimla\\Dev\\java\\OCRSystem\\WebContent\\uploadedImage\\" + image);
            InputStream input = fileName;
            bImge = ImageIO.read(input);
            byte[] imgeByte = ((DataBufferByte) bImge.getRaster().getDataBuffer()).getData();
@@ -72,7 +72,7 @@ public class grayscaleClass implements Preprocessable {
 
            }*/
            //writing the grayscale image to the folder
-           grayscle = new File("C:\\bimla\\Dev\\java\\LinguistProj\\WebContent\\uploadedImage\\grayscale" + "." + "jpg");
+           grayscle = new File("C:\\bimla\\Dev\\java\\OCRSystem\\WebContent\\uploadedImage\\grayscale" + "." + "jpg");
            ImageIO.write(bImage2, "jpg", grayscle);
        } catch (IOException ex1) {
            System.out.println("" + ex1.getMessage());

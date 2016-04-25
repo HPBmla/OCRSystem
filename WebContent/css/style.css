@@ -46,8 +46,8 @@ and open the template in the editor.
     height: 80px;
     width: 100%;
     alignment-adjust: central;
-    padding-top: 30px;
-    margin-bottom: 20px;
+    padding-top: 10px;
+    margin-bottom: 10px;
 }
 #display
 {
@@ -75,6 +75,7 @@ and open the template in the editor.
     background-color: #1C86EE;
     color: #fff;
     width: 100px;
+    padding-bottom: 5px;
 }
 
 .btn-image:hover{
@@ -99,6 +100,8 @@ legend .glyphicon { margin-left: 10px; margin-right: 10px; font-size: 90% ;}
 {
     height:500px;
     width: 300px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 .team-member h1{
     font-size: 7em;
@@ -164,9 +167,31 @@ legend .glyphicon { margin-left: 10px; margin-right: 10px; font-size: 90% ;}
 }
 
 #about{
-    //overflow: hidden;
-    // background-color: #5CACEE;
+    overflow: hidden;
+   /* background-color: #5CACEE;*/
+    padding-bottom: 0px;
 }
+#ocr
+{
+	overflow: hidden;
+   /* background-color: #5CACEE;*/
+    padding-bottom: 0px;
+    padding-top:0px;
+}
+#Community
+{
+	overflow: hidden;
+   /* background-color: #5CACEE;*/
+    padding-bottom: 0px;
+ 
+}
+#suggest
+{
+	overflow: hidden;
+   /* background-color: #5CACEE;*/
+    padding-bottom: 70px;
+}
+
 
 #btn_padding{
     margin: 5px;
@@ -182,18 +207,20 @@ legend .glyphicon { margin-left: 10px; margin-right: 10px; font-size: 90% ;}
     padding-left: 5%;
     padding-bottom: 5%;
     padding-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 #uploadSection
 {
     background-color: white;
     height: 45%;
     width: 100%;
-    padding-right: 20%;
-    padding-left: 20%;
+    padding-right: 5%;
+    padding-left: 5%;
     padding-bottom: 5%;
     padding-top: 5%;
-
+    margin-top:5px;
+    margin-bottom: 5px;
 }
 .textTitle
 {

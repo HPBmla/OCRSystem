@@ -47,9 +47,22 @@ public class SearchText extends HttpServlet {
     
     	textSession.put(userIdentifictnNum, output);
     	
-    String keyVal = textSession.get(output);
-    	
-    	
+ String keyVal = textSession.get(output);
+    System.out.println("---value of keyVal:"+keyVal);
+    int key = 0;
+    try{
+     key = Integer.parseInt(keyVal);
+    }
+    catch(NumberFormatException ex)
+    {
+    	System.out.println("can't be an integer");
+    }
+    	System.out.println("key value:"+keyVal);
+    	if(key != userIdentifictnNum)
+    	{
+    		request.setAttribute("searchText", output);
+    		request.getRequestDispatcher("searchTextPage.jsp").forward(request,response);
+    	}
 	}
 
 }

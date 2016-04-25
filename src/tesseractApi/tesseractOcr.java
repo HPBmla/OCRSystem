@@ -12,7 +12,7 @@ public class tesseractOcr {
         String extractedTxt = null;
         try {
             Tesseract tess = new Tesseract();
-            tess.setDatapath("C:\\bimla\\Dev\\java\\LinguistProj\\tessdata");
+            tess.setDatapath("C:\\bimla\\Dev\\java\\OCRSystem\\tessdata");
             extractedTxt = tess.doOCR(image);
             if (extractedTxt.isEmpty()) {
                 System.out.println("Couldn't extract the text");

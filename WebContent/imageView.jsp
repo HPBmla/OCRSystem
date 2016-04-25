@@ -19,9 +19,9 @@
 
     <%@include file="navigationBar.jsp" %>
     <section class="bg-light-gray">
-        <div class="container ">
+        <div class="container "> 
             <div class="row ">
-                <div  id = "imageView" class="col-lg-8 center-block ">
+                <div  id = "imageView" class="col-lg-8 center-block modal-content">
                     <form action="ImagePreprocess" method="post" class=" form" role="form" enctype="multipart/form-data">
                         <input type="submit" class= "btn btn-image pull-left" value="OCR">
                     </form>
@@ -33,7 +33,11 @@
             </div>
             <%
                 String fname = (String) request.getAttribute("name");
+      
+            System.out.print("uploaded image"+fname);
                 session.setAttribute("filename", fname);
+                fname = fname + ".jpg";
+                System.out.println("with extension"+fname);
                 String path = "";
                 if (request.getAttribute("name") != null) {
                     path = request.getAttribute("name").toString();
@@ -41,12 +45,9 @@
             %>
 
             <div class="row">
-                <div  id = "display" class="col-lg-8 center-block "><img src="uploadedImage/<%=fname%>" width="600" height="400"/>
+                <div  id = "display" class="col-lg-8 center-block modal-content">
+                <img src="uploadedImage/<%=fname%>" width="600" height="400"/>
 
-
-                    <!--    <div id ="inner-disply" class=" col-lg-8 center-block " ><img src= "pink.jpg" height ="300" width="400"/>
-
-</div>-->
 
                 </div>
 

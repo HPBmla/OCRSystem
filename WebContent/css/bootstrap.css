@@ -1568,6 +1568,7 @@ pre code {
     padding-left: 15px;
     margin-right: 30px;
     margin-left: 30px;
+    padding-bottom: 1px;
 }
 @media (min-width: 768px) {
     .container {
@@ -2908,7 +2909,7 @@ select[multiple].form-group-lg .form-control {
     }
     .form-inline .control-label {
         margin-bottom: 0;
-        vertical-align: middle;
+        vertical-align: left;
     }
     .form-inline .radio,
     .form-inline .checkbox {
@@ -2950,7 +2951,7 @@ select[multiple].form-group-lg .form-control {
     .form-horizontal .control-label {
         padding-top: 7px;
         margin-bottom: 0;
-        text-align: right;
+        text-align: left;
     }
 }
 .form-horizontal .has-feedback .form-control-feedback {
@@ -4162,7 +4163,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-brand {
     float: left;
     height: 50px;
-    padding: 15px 15px;
+    padding: 15px 20px;
     font-size: 18px;
     line-height: 20px;
 }

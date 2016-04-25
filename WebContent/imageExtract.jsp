@@ -16,30 +16,28 @@
 
 <%@include file="navigationBar.jsp" %>
 <section class="bg-light-gray">
-    <div class="container">
+    <div class="container ">
         <div class="row">
-            <div  id = "imageView" class="col-lg-8 center-block ">
+            <div  id = "imageView" class="col-lg-8 center-block modal-content">
 
-                <a href="#download" class="btn btn-image">Download</a>
+                <form action="DownloadDoc" method="post" class=" form" role="form" enctype="multipart/form-data">
+                        <input type="submit" class= "btn btn-image pull-left" value="Download">
+                    </form>
+                
                 <a href="translation.jsp" class="btn btn-image">Translate</a>
-                <a href="#search" class="btn btn-default bg-light-gray">Search Text</a>
-                <form action="SearchText" method="post" class="form" role="form" > 
-              <div class="col-md-4"> 
-              <input class="form-control" type="text" name="search"  value=""/>
-               </div> 
-              <input type="submit" class= "btn btn-button" name="search" value="Search">
-            
-              </form>
+                
+              
             </div>
         </div>
         <div class="row">
-            <div  id = "display" class="col-lg-8 center-block ">
+            <div  id = "display" class="col-lg-8 center-block modal-content">
             <%
-            String extracted = (String) request.getAttribute("extractedText");
+            String extracted = "Image will be displayed";
+             extracted = (String) request.getAttribute("extractedText");
             session.setAttribute("text", extracted);
             
             %>
-                <textarea maxlength="200" class=" form-control " name="msg" rows="20" id="Extract-textarea" ><%=extracted %> </textarea>
+                <textarea id="Extract-textarea" rows="20" cols="50" class=" form-control " name="msg"  ><%=extracted %> </textarea>
 
             </div>
 

@@ -62,13 +62,13 @@ public class imageUpload {
         boolean flag = false;
         String name = generateUniqueNme();
         try {
-            File path = new File("C:\\bimla\\Dev\\java\\LinguistProj\\WebContent\\uploadedImage\\" + name+"."+"jpg");
+            File path = new File("C:\\bimla\\Dev\\java\\OCRSystem\\WebContent\\uploadedImage\\" + name+"."+"jpg");
             BufferedImage bufImage = ImageIO.read(imgePrt);
             String extn = null;
       
             flag = ImageIO.write(bufImage, "jpg", path);
             if (flag == true) {
-                System.out.println("hurrayy");
+                System.out.println("your image is selected correctly");
             }
 
         } catch (IOException ex) {

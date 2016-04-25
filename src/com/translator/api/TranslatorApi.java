@@ -35,7 +35,8 @@ public class TranslatorApi {
 		try
 		{
 			try {
-				translte = new Translate.Builder(com.google.api.client.googleapis.javanet.GoogleNetHttpTransport.newTrustedTransport(), com.google.api.client.json.gson.GsonFactory.getDefaultInstance(), null)
+				translte = new Translate.Builder(com.google.api.client.googleapis.javanet.GoogleNetHttpTransport.newTrustedTransport(), 
+						com.google.api.client.json.gson.GsonFactory.getDefaultInstance(), null)
 				.setApplicationName("OCRProject")
 				.build();
 			} catch (IOException e) {
